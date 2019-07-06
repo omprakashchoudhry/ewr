@@ -1,4 +1,4 @@
-x,y=list(map(int,input().split()))
-for i in range(x+1,y):
+N,Q=list(map(int,input().split()))
+for i in range(N+1,Q):
     if i%2!=0:
         print(i,end=" ")
